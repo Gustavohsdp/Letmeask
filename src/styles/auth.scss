@@ -70,6 +70,11 @@
         border: 1px solid var(--border);
         outline: none;
       }
+
+      input:focus {
+        border-bottom: 2px solid var(--purple);
+      }
+
       button {
         margin-top: 16px;
       }

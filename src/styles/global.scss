@@ -15,8 +15,29 @@ body {
   --purple: #835AFD;
   --danger: #E73F5D;
   --border:#A8A8B3;
+  --pink: #E559F9;
 }
 
 body, input, button, textarea {
   font: 400 16px 'Roboto', sans-serif;
 }
+
+/* CUSTOM SCROLLBAR */
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #E559F9;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #e97ff7;
+  }
